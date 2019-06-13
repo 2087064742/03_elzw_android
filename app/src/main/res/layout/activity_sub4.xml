@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.Sub1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:circleimageview="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circle_image_view"
+            android:layout_width="113dp"
+            android:layout_height="113dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:src="@mipmap/abc"
+            circleimageview:civ_border_overlay="false"
+            circleimageview:civ_border_width="0.5dp"
+            circleimageview:civ_fill_color="@android:color/holo_blue_light"
+            circleimageview:layout_constraintBottom_toBottomOf="parent"
+            circleimageview:layout_constraintEnd_toEndOf="parent"
+            circleimageview:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text="账号："/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text="邮箱："/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fb_zp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="发布的作品"
+        android:textSize="25dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/zc"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="发布的作品"
+        android:textSize="25dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>

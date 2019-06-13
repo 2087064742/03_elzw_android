@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/sy"
+        android:title="首页" />
+
+    <item
+        android:id="@+id/navigation_zs"
+        android:icon="@mipmap/zs"
+        android:title="展示" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@mipmap/tj"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@mipmap/wd"
+        android:title="@string/title_notifications" />
+
+</menu>
